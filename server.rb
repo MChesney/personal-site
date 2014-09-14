@@ -1,9 +1,9 @@
 require 'sinatra'
 require 'sinatra/reloader'
-require 'json'
+require 'yaml'
 
 get '/' do
-	@content = JSON.parse File.read('content.json')
+	@content = YAML.load_file 'content.yml'
 	erb :index
 end
 

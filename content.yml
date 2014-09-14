@@ -1,0 +1,57 @@
+---
+profile: 
+  - item: Pursuing a Bachelor of Science in **Computer Science** and Bachelor of Arts in **Mandarin Chinese** from Michigan State University.
+  - item: Used an **artificial life software platform** to study the evolution of sexual recombination in the BEACON Center for the Study of Evolution in Action. Awarded the **Goldwater Scholarship** and third place nationally in the **ACM Student Research Competition** for this work.
+  - item: Employed as a Software Engineering Intern at **Google**.
+  - item: Recipient of the **Michigan Council of Women in Technology Scholarship**, Von Ehr Scholarship, **Engineering Exceptional and Distinguished Service Award**, and Women in Computing Extra Mile Leadership Award.
+experiences:
+  - location: Google
+    dates: Sep 2014 - Dec 2014
+    title: Software Engineering Intern
+    description: ??
+  - location: Google
+    dates: May 2013 - Aug 2013
+    title: Software Engineering Intern
+    description: Built a data aggregation tool now used by full- time software and mechanical engineers to diagnose problems in data centers and correlate relationships between data center components (CPUs, server racks, cooling components).
+  - location: BEACON Center for the Study of Evolution in Action
+    dates: Sep 2010 - Dec 2013
+    title: Undergraduate Researcher
+    description: Used Avida, an artificial life software platform, to study evolutionary theories in a digital system.
+  - location: TempoRun
+    dates: Aug 2013 - Dec 2013
+    title: Software Developer
+    description: As first hired employee, began work to develop Version 2 of an iOS app that builds exercise playlists based on workout intensity.
+  - location: College of Engineering Office for Recruitment and K-12 Outreach
+    dates: Mar 2013 - Dec 2013
+    title: Student Ambassador
+    description: Planned and led events aimed at increasing the proportion of women in engineering.
+  - location: Google
+    dates: May 2012 - Aug 2012
+    title: Engineering Practicum Intern
+    description: Launched private messaging in Hangouts chat.
+education: 
+  - name: Michigan State University
+    gpa: 
+    tags: school
+  - name: Computer Science, BS
+    gpa: 4.0
+    tags: degree
+  - name: Mandarin Chinese, BA
+    gpa: 4.0
+    tags: degree
+  - name: Computer Security
+    tags: class
+    gpa: 4.0
+activities:
+  - name: VEX Robotics Team
+  - position: 
+  - description:
+  - dates: 
+accomplishments:
+  - name:
+  - date:
+  - description: 
+skills:
+  - name: Ruby
+    level: 5
+    icon: ruby

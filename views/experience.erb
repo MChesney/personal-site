@@ -1,0 +1,10 @@
+<div class="experience">
+  <span class="dates"><%= experience['dates'].gsub('-', '&ndash;') %></span>
+  <div class="card">
+    <div class="position">
+      <span class="title"><%= experience['title'] %></span>
+      <span class="location"><%= experience['location'] %></span>
+    </div>
+    <%= markdown experience['description'] %>
+  </div>
+</div>
