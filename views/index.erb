@@ -1,14 +1,5 @@
-<div id="header">
-	<%= erb :intro %>
-</div>
-
-<div id="main">
-	<div id="experiences">
-		<% @content['experiences'].each do |experience| %>
-			<%= erb :experience, locals: {experience: experience} %>
-		<% end %>
-	</div>
-</div>
-
-<div id="footer">
+<div id="intro">
+	<% @content['profile'].each do |item| %>
+	  <div class="profile-item"><%= markdown item['item'] %></div>
+	<% end %>
 </div>

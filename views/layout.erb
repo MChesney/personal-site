@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Mairin Chesney</title>
+
+    <link rel="stylesheet" type="text/css" href="/style.css"></link>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Montaga' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="//use.typekit.net/qmo7wci.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+
+  <body>
+    <div class="container">
+      <%= erb :header %>
+    </div>
+  
+    <div class="container" id="content">
+      <%= yield %>
+    </div>
+    
+    <div class="container" id="footer">
+	    <%= erb :contact %>
+    </div>
+  </body>
+</html>

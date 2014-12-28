@@ -8,7 +8,7 @@ experiences:
   - location: Google
     dates: Sep 2014 - Dec 2014
     title: Software Engineering Intern
-    description: ??
+    description: Building a tool to monitor the efficiency of repairs of the cooling infrastructure in Google's data centers. 
   - location: Google
     dates: May 2013 - Aug 2013
     title: Software Engineering Intern
@@ -29,10 +29,19 @@ experiences:
     dates: May 2012 - Aug 2012
     title: Engineering Practicum Intern
     description: Launched private messaging in Hangouts chat.
+  - location: Department of Computer Science and Engineering
+    dates: Jul 2010 - Aug 2010
+    title: Teaching Assistant for Introduction to Programming I (Python)
+    description: Guided and instructued 
 education: 
   - name: Michigan State University
-    gpa: 
+    location: East Lansing, MI
+    gpa:  3.98
     tags: school
+  - name: Zhejiang University
+    location: Hangzhou, Zhejiang, China
+    gpa: 4.0
+    tags: schools
   - name: Computer Science, BS
     gpa: 4.0
     tags: degree
@@ -44,13 +53,18 @@ education:
     gpa: 4.0
 activities:
   - name: VEX Robotics Team
-  - position: 
-  - description:
-  - dates: 
-accomplishments:
-  - name:
-  - date:
-  - description: 
+    position: President (Sep 2013 - Dec 2013)
+    position: Vice President (Sep 2012 - May 2013)
+    description: Mentored high school teams and hosted tournaments while building our own robots for collegiate VEX Robotics competitions. 
+    dates: Sep 2010 - Dec 2013
+  - name: Women in Computing
+    position: President (Sep 2012 - May 2013)
+    position: XX??
+    description: Worked to reach and retain women in computer science through outreach events 
+awards:
+  - name: XX
+    date: XX
+    description: XX 
 skills:
   - name: Ruby
     level: 5

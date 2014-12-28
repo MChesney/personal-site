@@ -1,0 +1,15 @@
+<section id="skills">
+  <h2>Skills</h2>
+
+  <% @content['skills'].each do |skill| %>
+    <div class="skill">
+      <div class="name"><%= skill['name'] %></div>
+      <div class="proficiency">
+        <% skill['level'].times do %>
+            X
+          <!-- <img class="skill-bubble" src="<%= "/#{skill['icon']}.svg"%>"> -->
+        <% end %>
+      </div>
+    </div>
+  <%end%>
+</section>
