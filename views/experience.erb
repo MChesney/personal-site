@@ -1,14 +1,12 @@
-<div id="experiences">
-  <h2>Experience</h2>
+<h2>Experience</h2>
 
-  <% @content['experiences'].each do |experience| %>
-  	<div class="experience">
-      <span class="dates"><%= experience['dates'].gsub('-', '&ndash;') %></span>
-      <div class="position">
-        <span class="title"><%= experience['title'] %></span>
-        <span class="location"><%= experience['location'] %></span>
-      </div>
-      <%= markdown experience['description'] %>
+<% experiences.each do |experience| %>
+	<div class="experience">
+    <span class="dates"><%= experience['dates'].gsub('-', '&ndash;') %></span>
+    <div class="position">
+      <span class="title"><%= experience['title'] %></span>
+      <span class="location"><%= experience['location'] %></span>
     </div>
-  <% end %>
-</div>
+    <%= markdown experience['description'] %>
+  </div>
+<% end %>

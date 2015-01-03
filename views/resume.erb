@@ -1,0 +1,34 @@
+<!-- Education -->
+<div class="card">
+	<div id="education">
+		<%= erb :education, locals: {education: @content['education']} %>
+	</div>
+</div>
+
+<!-- Work Experience -->
+<div class="card">
+	<div id="experiences">
+		<%= erb :experience, locals: {experiences: @content['experiences']} %>
+	</div>
+</div>
+
+<!-- Activities -->
+<div class="card">
+	<div id="activities">
+		<%= erb :activities, locals: {activities: @content['activities']} %>
+	</div>
+</div>
+
+<!-- Skills -->
+<div class="card">
+	<div id="skills">
+		<%= erb :skills, locals: {skills: @content['skills']} %>
+	</div>
+</div>
+
+<!-- Honors and awards -->
+<div class="card">
+	<div id="awards">
+		<%= erb :awards, locals: {awards: @content['awards']} %>
+	</div>
+</div>

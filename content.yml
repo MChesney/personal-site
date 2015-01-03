@@ -1,22 +1,22 @@
 ---
 profile: 
-  - item: Pursuing a Bachelor of Science in **Computer Science** and Bachelor of Arts in **Mandarin Chinese** from Michigan State University.
-  - item: Used an **artificial life software platform** to study the evolution of sexual recombination in the BEACON Center for the Study of Evolution in Action. Awarded the **Goldwater Scholarship** and third place nationally in the **ACM Student Research Competition** for this work.
-  - item: Employed as a Software Engineering Intern at **Google**.
+  - item: Completed a Bachelor of Science in **Computer Science** and Bachelor of Arts in **Mandarin Chinese** from Michigan State University.
+  - item: Used an **artificial life software platform** called Avida to study the evolution of sexual recombination in the BEACON Center for the Study of Evolution in Action. Awarded the **Goldwater Scholarship** and third place nationally in the **ACM Student Research Competition** for this work.
+  - item: Three-time Software Engineering Intern at **Google** and a Software Developer at **TempoRun**.
   - item: Recipient of the **Michigan Council of Women in Technology Scholarship**, Von Ehr Scholarship, **Engineering Exceptional and Distinguished Service Award**, and Women in Computing Extra Mile Leadership Award.
 experiences:
   - location: Google
     dates: Sep 2014 - Dec 2014
     title: Software Engineering Intern
-    description: Building a tool to monitor the efficiency of repairs of the cooling infrastructure in Google's data centers. 
+    description: Built and launched a tool that allows data centers worldwide to understand historical performance related to repairing data center components.
   - location: Google
     dates: May 2013 - Aug 2013
     title: Software Engineering Intern
-    description: Built a data aggregation tool now used by full- time software and mechanical engineers to diagnose problems in data centers and correlate relationships between data center components (CPUs, server racks, cooling components).
+    description: Built a data aggregation tool now used by full-time software and mechanical engineers to diagnose problems in data centers and correlate relationships between data center components (CPUs, server racks, cooling components).
   - location: BEACON Center for the Study of Evolution in Action
     dates: Sep 2010 - Dec 2013
     title: Undergraduate Researcher
-    description: Used Avida, an artificial life software platform, to study evolutionary theories in a digital system.
+    description: Explored the origin of sexual recombination using Avida, an artificial life software platform.
   - location: TempoRun
     dates: Aug 2013 - Dec 2013
     title: Software Developer
@@ -59,13 +59,50 @@ activities:
     dates: Sep 2010 - Dec 2013
   - name: Women in Computing
     position: President (Sep 2012 - May 2013)
-    position: XX??
-    description: Worked to reach and retain women in computer science through outreach events 
+    position: University Relations Chair (Sep 2011 - May 2012)
+    description: Worked to reach and retain women in computer science through outreach and networking events.
+  - name: Women's Chamber Ensemble
+    position: xx
+    description: xx
+  - name: Student Organization Corporate Council
+    position: xx
+    description: xx
+  - name: MSU Telecasters
+    position: Actor
+    description: xx
 awards:
-  - name: XX
+  - name: ACM Student Research Competition - 3rd Place Nationally
+    date: xx
+    description: xx
+  - name: ACM Student Research Competition Winner - Grace Hopper Celebration of Women in Computing
     date: XX
     description: XX 
 skills:
-  - name: Ruby
+  - name: C++
+    level: 4
+  - name: Python
+    level: 4
+  - name: HTML/CSS
+    level: 3
+  - name: Java
+    level: 3
+  - name: JavaScript
+    level: 3
+  - name: Ruby/Rails
+    level: 2
+  - name: Objective-C
+    level: 2
+  - name: PHP
+    level: 2
+  - name: Violin
     level: 5
-    icon: ruby
+  - name: Mandarin Chinese
+    level: 4
+  - name: Public Speaking
+    level: 4
+  - name: Photography
+    level: 3
+  - name: Rock Climbing
+    level: 3
+  - name: Sailing
+    level: 2

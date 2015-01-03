@@ -9,24 +9,24 @@ get '/' do
 	erb :index
 end
 
-get '/experience' do
+get '/resume' do
 	@content = file_contents
-	erb :experience
+	erb :resume
 end
 
-get '/education' do
+get '/projects' do
 	@content = file_contents
-	erb :education
+	erb :projects
 end
 
-get '/skills' do
+get '/photos' do
 	@content = file_contents
-	erb :skills
+	erb :photos
 end
 
-get '/awards' do
+get '/contact' do
 	@content = file_contents
-	erb :awards
+	erb :contact
 end
 
 get '/style.css' do

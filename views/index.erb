@@ -1,5 +1,7 @@
-<div id="intro">
-	<% @content['profile'].each do |item| %>
-	  <div class="profile-item"><%= markdown item['item'] %></div>
-	<% end %>
+<div class="card">
+	<div id="intro">
+		<% @content['profile'].each do |item| %>
+		  <div class="profile-item"><%= markdown item['item'] %></div>
+		<% end %>
+	</div>
 </div>
