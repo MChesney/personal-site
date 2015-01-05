@@ -1,9 +1,15 @@
 ---
 profile: 
-  - item: Completed a Bachelor of Science in **Computer Science** and Bachelor of Arts in **Mandarin Chinese** from Michigan State University.
-  - item: Used an **artificial life software platform** called Avida to study the evolution of sexual recombination in the BEACON Center for the Study of Evolution in Action. Awarded the **Goldwater Scholarship** and third place nationally in the **ACM Student Research Competition** for this work.
-  - item: Three-time Software Engineering Intern at **Google** and a Software Developer at **TempoRun**.
-  - item: Recipient of the **Michigan Council of Women in Technology Scholarship**, Von Ehr Scholarship, **Engineering Exceptional and Distinguished Service Award**, and Women in Computing Extra Mile Leadership Award.
+  who:
+    - item: xx
+  doing:
+    - item: xx
+  done:
+    - item: Earned a Bachelor of Science in Computer Science and Bachelor of Arts in Mandarin Chinese from Michigan State University.
+    - item: Used an artificial life software platform called Avida to study the origin and maintenance of sexual recombination in the BEACON Center for the Study of Evolution in Action. Awarded the Goldwater Scholarship and third place nationally in the ACM Student Research Competition for this work.
+    - item: Three-time Software Engineering Intern at Google and past Software Developer at TempoRun.
+    - item: Spent five months studying Mandarin in Hangzhou, China.
+    - item: Recipient of the Michigan Council of Women in Technology Scholarship, Von Ehr Scholarship, Engineering Exceptional and Distinguished Service Award, and Women in Computing Extra Mile Leadership Award.
 experiences:
   - location: Google
     dates: Sep 2014 - Dec 2014

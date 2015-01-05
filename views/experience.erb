@@ -2,11 +2,10 @@
 
 <% experiences.each do |experience| %>
 	<div class="experience">
+    <hr />
+    <div class="location"><strong><%= experience['location'] %></strong></div>
+    <span class="title"><%= experience['title'] %></span>
     <span class="dates"><%= experience['dates'].gsub('-', '&ndash;') %></span>
-    <div class="position">
-      <span class="title"><%= experience['title'] %></span>
-      <span class="location"><%= experience['location'] %></span>
-    </div>
     <%= markdown experience['description'] %>
   </div>
 <% end %>

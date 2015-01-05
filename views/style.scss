@@ -1,21 +1,26 @@
+//$visual-grid: true;
+
 @import "bourbon/bourbon";
 @import "neat/neat";
 
 $medium: new-breakpoint(max-width 1160px 12);
 $smaller: new-breakpoint(max-width 799px 4);
-$tiny: new-breakpoint(max-width 479px 4);
+$tiny: new-breakpoint(max-width 520px 4);
 
-$header-font: 'Montaga', serif;
-$body-font: 'Josefin Sans', sans-serif;
+$header-font: 'Philosopher', serif;
+$body-font: 'Muli', sans-serif;
 
 $black: #111111;
 $light-gray: #555555;
 
-$card-color: rgba(0, 0, 0, 0.3);
-$text-color: #000000;
+$background-color: #fffffa;
+$card-color: rgba(0, 0, 0, 0.05);
+$text-color-dark: #000000;
+$text-color-light: #ffffff;
 
 body {
-    background-image: url("/congruent_pentagon.png");
+    background-color: $background-color;
+    color: $text-color-dark;
     font-family: $body-font;
     line-height: $gutter;
 }
@@ -24,25 +29,106 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $header-font;
 }
 
+a {
+    text-decoration: none;
+    &:link, &:visited { color: $black; }
+    &:hover, &:active { color: $light-gray; } 
+}
+
 .container {
     @include outer-container;
 }
 
-.card {
-    background-color: $card-color;
-    color: $text-color;
-    margin: 1em;
-    padding: 1em;
+.hero {
+  $hero-background-top: #7F99BE; 
+  $hero-background-bottom: #20392B;
+  $gradient-angle: 10deg;
+  $hero-image: '/me.jpg';
+
+  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  margin-top: 1em;
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    margin: auto;
+    text-align: center;
+    color: $text-color-light;
+
+    a {
+      &:link, &:visited, &:hover, &:active { color: $text-color-light; }
+    }
+    .button {
+      display: inline-block; 
+      margin: 12em 0;
+      padding-top: 3.3em;
+      background: rgba(0, 0, 0, 0.2);
+      width: 8em;
+      height: 8em;
+      @include media($tiny) {
+        margin: 8em 0;
+      }
+    }
+    .button-left {
+      margin-right: 1em;
+    }
+  }
 }
 
-#header {
+.card {
+    @include span-columns(12);
+    background-color: $card-color;
+    padding: 0.25em 1em;
+    margin-top: $gutter;
+    text-align: justify;
+}
+
+#menu {
     margin: 1em auto 1em auto;
     max-width: 16em;
     a {
         @include span-columns (1 of 5);
         text-align: center;
-        text-decoration: none;
-        &:link, &:visited { color: $black; }
-        &:hover, &:active { color: $light-gray; }
     }
+}
+
+#declaration {
+    margin-top: 0;
+    #mairin {
+        text-align: center;
+        font-family: $header-font;
+        font-size: 3em;
+        margin: 0.7em 0 0.3em 0;
+        @include media($tiny) {
+            font-size: 2em;
+        }
+    }
+    #description {
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 1em;
+        @include media($tiny) {
+            font-size: 0.8em;
+        }
+    }
+}
+
+.experience {
+    hr {
+        border-color: $text-color-dark;
+    }
+    .dates {
+        font-style: italic;
+        float: right;
+    }
+}
+
+#pdf {
+    margin: 0 1em;
+    text-align: center;
+    font-weight: bold;
 }
