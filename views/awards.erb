@@ -1,9 +1,0 @@
-<h2>Awards</h2>
-
-<% awards.each do |award| %>
-	<div class="award">
-    <span class="dates"><%= award['date']%></span>
-    <div class="name"><%= award['name']%></div>
-    <%= markdown award['description'] %>
-  </div>
-<% end %>

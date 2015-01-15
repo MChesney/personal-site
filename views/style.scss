@@ -10,13 +10,10 @@ $tiny: new-breakpoint(max-width 520px 4);
 $header-font: 'Philosopher', serif;
 $body-font: 'Muli', sans-serif;
 
-$black: #111111;
-$light-gray: #555555;
-
 $background-color: #fffffa;
 $card-color: rgba(0, 0, 0, 0.05);
-$text-color-dark: #000000;
-$text-color-light: #ffffff;
+$text-color-dark: #111111;
+$text-color-light: #fffffa;
 
 body {
     background-color: $background-color;
@@ -31,8 +28,8 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-    &:link, &:visited { color: $black; }
-    &:hover, &:active { color: $light-gray; } 
+    &:link, &:visited { color: $text-color-dark; }
+    &:hover, &:active { color: $text-color-light; } 
 }
 
 .container {
@@ -87,15 +84,6 @@ a {
     text-align: justify;
 }
 
-#menu {
-    margin: 1em auto 1em auto;
-    max-width: 16em;
-    a {
-        @include span-columns (1 of 5);
-        text-align: center;
-    }
-}
-
 #declaration {
     margin-top: 0;
     #mairin {
@@ -115,20 +103,4 @@ a {
             font-size: 0.8em;
         }
     }
-}
-
-.experience {
-    hr {
-        border-color: $text-color-dark;
-    }
-    .dates {
-        font-style: italic;
-        float: right;
-    }
-}
-
-#pdf {
-    margin: 0 1em;
-    text-align: center;
-    font-weight: bold;
 }
